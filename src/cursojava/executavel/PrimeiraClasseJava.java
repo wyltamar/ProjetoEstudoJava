@@ -29,6 +29,7 @@ public class PrimeiraClasseJava {
 		System.out.println("Nota 4 = "+aluno2.getNota4());
 		System.out.println("================================================");
 		System.out.println("Média final do aluno = "+aluno2.getMediaNota());
+		System.out.println("Resultado = "+(aluno2.getAprovado()? "Aprovado" : "Reprovado"));
 		
 
 	}
